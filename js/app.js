@@ -1,5 +1,5 @@
-"use strict";
+'use strict';
 
-(function(){
-  angular.module("wdinstagram", [])
-})();
+(function () {
+  angular.module('wdinstagram', [])
+})()
