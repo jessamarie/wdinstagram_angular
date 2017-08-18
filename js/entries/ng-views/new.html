@@ -1,0 +1,17 @@
+<div class="entry-container">
+  <h2>Create Grumble</h2>
+
+  <form class="entry">
+    <label for="author-name"></label>
+    <input name="author-name" placeholder="Author Name" data-ng-model="vm.entry.author" />
+
+    <label for="photo-url"></label>
+    <input name="photo-url" placeholder="Photo URL" data-ng-model="vm.entry.photo_url" />
+
+    <label for="body"></label>
+    <textarea name="body"placeholder="Post content" data-ng-model="vm.entry.body"></textarea>
+
+    <button type="button" data-ng-click="vm.create()">Create</button>
+    <pre>{{vm.entry | json}}</pre>
+  </form>
+</div>

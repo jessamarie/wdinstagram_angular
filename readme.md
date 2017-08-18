@@ -1,5 +1,14 @@
 # WDInstagram Angular
 
+## TODO:
+[ ] make images on index page crop
+[ ] make images on show page non-cropped/Original
+[ ] remove padding on create page
+[ ] add edit/update page from show page
+[ ] add destroy button on show page
+
+## Original HW Assignment:
+
 Fork and Clone
 
 Make a simple instagram clone!
