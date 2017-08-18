@@ -1,0 +1,8 @@
+<section class="feed">
+  <div class="entry-container">
+    <div class="entry" ng-repeat="entry in vm.entries">
+      <h2>{{entry.author}}</h2>
+      <img src="{{entry.photo_url}}" alt="Photo of {{entry.body}}">
+      <p>{{entry.body}}</p>    </div>
+  </div>
+</section>
