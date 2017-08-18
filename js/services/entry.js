@@ -25,11 +25,16 @@
     ]
 
     return {
-      all: all
+      all: all,
+      find: find
     }
 
     function all () {
       return entries
+    }
+
+    function find (id) {
+      return entries[id]
     }
   }
 })()

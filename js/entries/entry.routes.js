@@ -15,6 +15,12 @@
       controller: 'EntriesIndexController',
       controllerAs: 'vm'
     })
+    .state('entriesShow', {
+      url: '/entries/:id',
+      templateUrl: 'js/entries/ng-views/show.html',
+      controller: 'EntriesShowController',
+      controllerAs: 'vm'
+    })
     $urlRouterProvider.otherwise('/entries')
   }
 })()
