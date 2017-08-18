@@ -8,6 +8,6 @@
   ])
 
   function EntriesShowController ($stateParams, Entry) {
-    this.entry = Entry.find($stateParams.id)
+    this.entry = Entry.get({id: $stateParams.id})
   }
 })()

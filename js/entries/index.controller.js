@@ -7,6 +7,6 @@
   ])
 
   function EntriesIndexController (Entry) {
-    this.entries = Entry.all()
+    this.entries = Entry.query()
   }
 })()

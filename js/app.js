@@ -2,6 +2,7 @@
 
 (function () {
   angular.module('wdinstagram', [
-    'ui.router'
+    'ui.router',
+    'ngResource'
   ])
 })()
